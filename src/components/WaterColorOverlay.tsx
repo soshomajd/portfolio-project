@@ -33,10 +33,8 @@ const WatercolorOverlay: React.FC<WatercolorOverlayProps> = ({
     ctx.clip();
 
     const colors = [
-      "rgba(255, 223, 100, 0.8)", // Gul
-      "rgba(255, 122, 242, 0.7)", // Rosa
-      "rgba(136, 157, 98, 0.6)", // Grön
-      "rgba(173, 216, 230, 0.5)", // Ljusblå
+      "rgba(255, 255, 255, 0.8)", // Vit
+      "rgba(211, 211, 211, 0.8)", // Ljusgrå
     ];
 
     // Färgtäcke

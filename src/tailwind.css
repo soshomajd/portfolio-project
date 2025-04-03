@@ -1,1 +1,51 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: "Agoka";
+    src: url("/assets/AgokaFamily.otf") format("truetype"); 
+    font-weight: normal, bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "NewYork";
+    src: url("/assets/NewYork.otf") format("truetype"); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Kiona-Regular";
+    src: url("/assets/Kiona-Regular.ttf") format("truetype"); 
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2); 
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .pulsing-bubble {
+    animation: pulse 1.5s ease-in-out infinite; 
+  }
+  
+  .pulsing-bubble:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .pulsing-bubble:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .pulsing-bubble:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
