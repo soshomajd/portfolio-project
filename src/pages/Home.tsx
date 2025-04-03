@@ -7,8 +7,8 @@ export default function Home() {
       <svg width="100%" height="500" viewBox="0 0 1000 500">
         <path
           id="s-curve"
-          d="M 100,250 
-             C 350,100 550,400 750,250 
+          d="M 100,250
+             C 350,100 550,400 750,250
              S 1150,400 950,250"
           fill="transparent"
           strokeWidth="1"
